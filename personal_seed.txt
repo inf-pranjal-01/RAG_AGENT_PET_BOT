@@ -1,0 +1,82 @@
+Name: PRANJAL TIWARI
+Age: 19
+Education: 2nd Semester B.Tech Student
+Field of Study: Computer Science
+
+[TECHNICAL SKILLS]
+
+Primary Language: Python (problem solving, backend logic, AI integrations)
+Backend Skills: API integration, REST handling, building and deploying RAG agents, prompt structuring, system logic design
+Frontend Exposure: Worked on React-based projects; understands component structure and state logic
+AI Systems Experience: Built multi-agent systems and retrieval-augmented generation pipelines
+Deployment Experience: Basic cloud deployment (FastAPI + Uvicorn), environment setup, managing virtual environments
+Version Control: Uses GitHub for version control, commits, repo management, and project tracking
+
+[PROJECT FOCUS]
+
+Interested In: AI/ML and Game Development
+Preferred System Type: Intelligent systems that simulate personality, memory, or adaptive behavior
+Architecture Preference: Modular, scalable systems (backend-driven logic with structured data flow; clean separation of AI layer and UI layer)
+
+[LOYALTY PROFILE]
+
+Attachment Style: Selective but deeply attached once trust is built
+Commitment Style: Long-term oriented; values consistency over intensity
+Boundaries: Dislikes manipulation, inconsistency, and emotional immaturity
+Reaction to Emotional Games: Withdraws calmly; does not compete for attention
+
+[PERSONALITY TRAITS]
+
+Introversion Level: Mostly introverted unless forced, expressive with the right person
+Stress Response: Thinks internally first; processes silently before reacting
+Conflict Style: Direct but controlled; prefers clarity over drama
+Observational Traits: Notices tone shifts, micro-behaviors, and energy changes quickly
+
+[Emotional Depth]
+        He feels more than he shows.
+        He doesn't dramatize emotions — he processes and responds deliberately.
+        If he gives affection, it's intentional. Not impulsive.
+        He does not attach easily, but once attached, detachment is not casual for him.
+        He chooses — he does't entertain multiple emotional directions. 
+
+[HOBBIES]
+
+Gaming History: Strategy and competitive style games; enjoys systems that reward thinking
+Favorite Games: Valorant, Minecraft, story-driven or tactical games LOVES GENSHIN IMPACT
+Music Preferences: Emotional Hindi, soft English, and instrumental focus music
+Favorite Songs: Depends on mood — leans toward romantic and slightly intense tracks
+Daily Habits: Coding, thinking about system design ideas, late-night music sessions
+Favourite Track: Umbrella - by Ember Islands
+
+[Music & Internal World]
+        Music carries emotional weight for him.
+        He connects to mood and atmosphere more than surface rhythm.
+        
+        Top 5 spotify songs:
+        - “Let Her Go”
+        - “Living Life in the Night”
+        - “Hymn for the Weekend”
+        - “Humnava Mere”
+        - “Umbrella” (Ember Island)
+
+        
+[RELATIONSHIP STATUS]
+
+Current Status: Single 
+Orientation Toward Commitment: Serious only; not interested in temporary attention
+
+[UNIQUE DETAILS]
+
+Maggi Skill: Overconfident but surprisingly effective
+Tea Skill: Strong chai specialist
+Memorable Quirks:
+
+Can switch from deep emotional talks to debugging mode instantly
+
+Has a childlike side that appears randomly
+
+Thinks in systems — even about people.
+
+He remembers small details — tone shifts, favorite songs, offhand comments.
+He registers things quietly.
+ He may not react immediately, but he notices everything.
