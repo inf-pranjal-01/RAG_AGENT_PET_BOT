@@ -9,9 +9,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 
-# =========================
+
 # LOAD ENVIRONMENT
-# =========================
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
@@ -19,9 +18,7 @@ API_KEY = os.getenv("API_KEY")
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_NAME = "openai/gpt-4o-mini"
 
-# =========================
 # EMBEDDING MODEL
-# =========================
 
 embedding_model = OpenAIEmbeddings(
     api_key=API_KEY,
@@ -29,16 +26,15 @@ embedding_model = OpenAIEmbeddings(
     model="text-embedding-3-small"
 )
 
-# =========================
+
 # LOAD PERSONAL SEED FILE
-# =========================
+
 
 with open("personal_seed.txt", "r", encoding="utf-8") as f:
     personal_seed_text = f.read()
 
-# =========================
 # TEXT SPLITTING
-# =========================
+
 
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
@@ -47,30 +43,27 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 documents = text_splitter.create_documents([personal_seed_text])
 
-# =========================
 # VECTOR STORE
-# =========================
+
 
 vector_store = FAISS.from_documents(documents, embedding_model)
 
-# =========================
+
 # RETRIEVAL FUNCTION
-# =========================
 
 def retrieve_context(query: str, k: int = 3):
     results = vector_store.similarity_search(query, k=k)
     return "\n\n".join([doc.page_content for doc in results])
-# =========================
+
 # LOAD PERSONAL SEED FILE
-# =========================
+
 
 with open("personal_seed.txt", "r", encoding="utf-8") as f:
     personal_seed_text = f.read()
 
 
-# =========================
-# LOAD ENVIRONMENT
-# =========================
+
+# LOAD API_CREDS
 
 load_dotenv()  # reads .env
 
@@ -81,9 +74,8 @@ MODEL_NAME = "openai/gpt-4o-mini"
 
 
 
-# =========================
 # FASTAPI INIT
-# =========================
+
 
 app = FastAPI()
 
@@ -96,17 +88,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# =========================
+
 # REQUEST MODEL
-# =========================
+
 
 class ChatRequest(BaseModel):
     message: str
 
 
-# =========================
+
 # PERSONAL DATA (UNCHANGED)
-# =========================
+
 
 personal_data = {
     "name": "Pranjal",
@@ -118,14 +110,10 @@ personal_data = {
 
 
 
-# =========================
-# AI CALL (UNCHANGED)
-# =========================
+# AI CALL
 
 def call_ai(system_prompt, user_prompt):
-    """
-    Sends a request to the AI and returns its reply.
-    """
+    
 
     payload = {
         "model": MODEL_NAME,
@@ -149,16 +137,14 @@ def call_ai(system_prompt, user_prompt):
 
 
 
-# =========================
-# PET BOT LOGIC (UNCHANGED PROMPT)
-# =========================
+# PET BOT LOGIC
 
 def pet_bot_reply(user_question):
    
 
    q = user_question.lower().strip()
 
-    # ===== HARDCODED STYLE OVERRIDES =====
+    # HARDCODED STYLE OVERRIDE
    if "loyal" in q:
         return "Yes — once he chooses… like he chose me.\nNot everyone earns that level though."
 
@@ -261,9 +247,9 @@ def pet_bot_reply(user_question):
    return call_ai(system_prompt, user_question)
 
 
-# =========================
-# API ROUTE (NEW)
-# =========================
+
+# API ROUTE
+
 
 @app.post("/chat")
 def chat_endpoint(request: ChatRequest):
