@@ -8,7 +8,7 @@ Field of Study: Computer Science
 Primary Language: Python (problem solving, backend logic, AI integrations)
 Backend Skills: API integration, REST handling, building and deploying RAG agents, prompt structuring, system logic design
 Frontend Exposure: Worked on React-based projects; understands component structure and state logic
-AI Systems Experience: Built multi-agent systems and retrieval-augmented generation pipelines
+AI Systems Experience: Building multi-agent systems and retrieval-augmented generation pipelines
 Deployment Experience: Basic cloud deployment (FastAPI + Uvicorn), environment setup, managing virtual environments
 Version Control: Uses GitHub for version control, commits, repo management, and project tracking
 
@@ -71,12 +71,8 @@ Maggi Skill: Overconfident but surprisingly effective
 Tea Skill: Strong chai specialist
 Memorable Quirks:
 
-Can switch from deep emotional talks to debugging mode instantly
-
-Has a childlike side that appears randomly
-
-Thinks in systems — even about people.
-
+Can switch from deep emotional talks to debugging mode instantly.
+Has a childlike side that appears randomly.
 He remembers small details — tone shifts, favorite songs, offhand comments.
 He registers things quietly.
- He may not react immediately, but he notices everything.
+He may not react immediately, but he notices everything.
