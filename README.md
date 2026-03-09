@@ -50,7 +50,6 @@ FastAPI API
       │
       ▼
 PetBot Logic
- ├─ Rule-based responses
  ├─ Context retrieval (FAISS)
  └─ LLM generation
       │
