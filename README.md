@@ -1,7 +1,7 @@
 <h1 align="center">KALUii – AI Companion for My Profile</h1>
 
 <p align="center">
-An experimental AI personality bot that answers questions about me in a playful way.
+An <b>RAG-Retrieval Augmented Generation</b> based AI personality bot that answers questions about me in a playful way.
 </p>
 
 <hr>
@@ -9,7 +9,7 @@ An experimental AI personality bot that answers questions about me in a playful 
 <h2>About</h2>
 
 <p>
-PetBot is a small <b>AI personality companion</b> designed to represent me interactively.
+This PetBot is a small <b>AI personality companion</b> designed to represent me interactively.
 Instead of reading a static bio, visitors can <b>chat with an AI companion</b> that knows about my interests, skills, and personality.
 </p>
 
@@ -96,7 +96,7 @@ AI Response
 
 <hr>
 
-<h2>Future Upgrades</h2>
+<h2>⭐Future Upgrades⭐</h2>
 
 <ul>
 <li>Conversation context memory</li>
@@ -106,5 +106,5 @@ AI Response
 <hr>
 
 <p align="center">
-Built as a small experiment exploring <b>AI-powered interactive profiles</b>.
+Built as a small project exploring <b>AI-powered interactive systems</b>.
 </p>
