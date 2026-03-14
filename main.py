@@ -55,18 +55,6 @@ def retrieve_context(query: str, k: int = 3):
     results = vector_store.similarity_search(query, k=k)
     return "\n\n".join([doc.page_content for doc in results])
 
-# LOAD PERSONAL SEED FILE
-
-
-with open("personal_seed.txt", "r", encoding="utf-8") as f:
-    personal_seed_text = f.read()
-
-
-
-
-
-
-
 
 # FASTAPI INIT
 
