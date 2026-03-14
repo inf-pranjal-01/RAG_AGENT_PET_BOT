@@ -64,7 +64,7 @@ app = FastAPI()
 # Allow frontend to call backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Later restrict to your Vercel domain
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -79,7 +79,7 @@ class ChatRequest(BaseModel):
 
 
 
-# PERSONAL DATA (UNCHANGED)
+# PERSONAL DATA
 
 
 personal_data = {
