@@ -102,7 +102,8 @@ def call_ai(system_prompt, user_prompt):
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
-        ]
+        ],
+        "provider": {"zdr": True},
     }
 
     response = requests.post(
