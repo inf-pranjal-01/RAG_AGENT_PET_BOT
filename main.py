@@ -63,13 +63,7 @@ with open("personal_seed.txt", "r", encoding="utf-8") as f:
 
 
 
-# LOAD API_CREDS
 
-load_dotenv()  # reads .env
-
-API_KEY = os.getenv("API_KEY")
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "openai/gpt-4o-mini"
 
 
 
