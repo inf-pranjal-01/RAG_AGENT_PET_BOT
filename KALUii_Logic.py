@@ -192,9 +192,7 @@ def pet_bot_reply(user_question):
 
          
     )
-   with open("Temp_retrieval.txt", "w") as f:
-           
-            f.write(retrieved_context) # To see the retrieved context
+   
 
    return call_ai(system_prompt, user_question)
 
