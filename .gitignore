@@ -1,1 +1,4 @@
 .env
+Rag_Agent_google_TTS-KEY-API.json
+.venv
+Temp_retrieval.txt
