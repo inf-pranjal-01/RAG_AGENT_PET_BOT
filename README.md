@@ -69,6 +69,8 @@ AI Response
 <li>OpenRouter API</li>
 <li>GPT-4o-mini</li>
 <li>OpenAI Embeddings (<code>text-embedding-3-small</code>)</li>
+<li>SST: Groq Whisper V3</li>
+<li>TTS: Google Cloud TTS API</li>
 </ul>
 
 <hr>
@@ -99,7 +101,7 @@ AI Response
 
 <ul>
 <li>Conversation context memory</li>
-<li>Voice interaction (speech input/output)</li>
+<li>Voice interaction (speech input/output) : DONE ✅✅ (Refinement needed)</li>
 </ul>
 
 <hr>
