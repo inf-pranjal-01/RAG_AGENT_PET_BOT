@@ -61,9 +61,9 @@ def text_to_voice_sexy(reply):
         output_format="mp3_44100_128",
     )
 
-    
+    audio_bytes = b"".join(audio) 
     # bytes → base64 bytes → string (so it can be sent in JSON)
-    audio_base64 = base64.b64encode(audio).decode("utf-8")   
+    audio_base64 = base64.b64encode(audio_bytes).decode("utf-8")   
     return audio_base64
 
 
