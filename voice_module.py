@@ -55,10 +55,10 @@ def text_to_voice_sexy(reply):
     )
 
     audio = client.text_to_speech.convert(
-    text={reply},
-    voice_id="kPzsL2i3teMYv0FxEYQ6",  # KALUii's voice ID
-    model_id="eleven_multilingual_v2",
-    output_format="mp3_44100_128",
+        text=reply,
+        voice_id="kPzsL2i3teMYv0FxEYQ6",  # KALUii's voice ID
+        model_id="eleven_multilingual_v2",
+        output_format="mp3_44100_128",
     )
 
     
