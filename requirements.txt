@@ -3,7 +3,7 @@ uvicorn
 python-dotenv
 requests
 groq
-google-cloud-texttospeech
+
 langchain
 langchain-community
 langchain-openai

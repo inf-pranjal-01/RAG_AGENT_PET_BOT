@@ -4,7 +4,7 @@
 import os
 import base64
 from groq import Groq
-from google.cloud import texttospeech
+
 from dotenv import load_dotenv
 from elevenlabs.client import ElevenLabs
 from elevenlabs.play import play
@@ -29,7 +29,7 @@ load_dotenv()
 
 
 groq_client = Groq(api_key=os.getenv("groq_api_key"))
-tts_client = texttospeech.TextToSpeechClient()
+
 
 def voice_to_text(audio_bytes, filename):
  
